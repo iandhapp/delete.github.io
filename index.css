@@ -63,6 +63,7 @@ p {
 }
 dt {
 	margin: 2em 0 0 0;
+	font-weight: bolder;
 }
 img {
 	max-width: 100%;
@@ -112,6 +113,10 @@ a {
 .side li a:hover {
 	text-decoration: underline;
 }
+#footer-container {
+	margin-top: 2em;
+	padding-bottom: 2em;
+}
 footer {
 	font-size: 15px;
 	height: 100px;
@@ -123,6 +128,15 @@ blockquote {
 	padding: 5px;
 	margin: 10px;
 }
+.text-center {
+	text-align: center;
+	padding-top: 2em;
+}
+.text-right {
+	text-align: right;
+	font-size: smaller;
+	margin-top: 1em;
+}
 @media screen and (max-width: 767px) {
 #header-container {
     margin: 0;
@@ -130,7 +144,7 @@ blockquote {
 }
 #head-inner {
     padding: 25px 10px;
-	background-color: #214555;
+	background-color: #005794;
 }
 #content-wrapper {
 margin: 0;
